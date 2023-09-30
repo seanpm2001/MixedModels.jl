@@ -8,10 +8,10 @@ fit(MixedModel, @formula(rt_raw ~ spkr * prec * load + (1|subj) + (1+prec|item))
 
 Variance components:
              Column      Variance  Std.Dev.  Corr.
-item     (Intercept)     158695.302 398.366
-         prec: maintain   93637.344 306.002 -0.81
-subj     (Intercept)     105909.620 325.438
-Residual                 842822.907 918.054
+item     (Intercept)     158695.306 398.366
+         prec: maintain   93637.347 306.002 -0.81
+subj     (Intercept)     105909.621 325.438
+Residual                 842822.906 918.054
  Number of obs: 1789; levels of grouping factors: 32, 56
 
   Fixed-effects parameters:
@@ -33,11 +33,11 @@ spkr: old &amp; prec: maintain &amp; load: yes    15.4985     21.7062   0.71    
 
 Variance components:
              Column       Variance  Std.Dev.   Corr.
-item     (Intercept)     1225798.531 1107.158
-         prec: break      493552.843  702.533 -0.82
-         prec: maintain  1006118.561 1003.055 -0.98 +0.80
-subj     (Intercept)      105911.865  325.441
-Residual                  842822.319  918.054
+item     (Intercept)     1225798.512 1107.158
+         prec: break      493552.870  702.533 -0.82
+         prec: maintain  1006118.563 1003.055 -0.98 +0.80
+subj     (Intercept)      105911.860  325.441
+Residual                  842822.321  918.054
  Number of obs: 1789; levels of grouping factors: 32, 56
 
   Fixed-effects parameters:
@@ -52,4 +52,4 @@ spkr: old &amp; prec: maintain               -28.0275     21.7062  -1.29    0.19
 spkr: old &amp; load: yes                     26.8642     21.7062   1.24    0.2159
 prec: maintain &amp; load: yes               -18.6514     21.7062  -0.86    0.3902
 spkr: old &amp; prec: maintain &amp; load: yes    15.4985     21.7062   0.71    0.4752
-──────────────────────────────────────────────────────────────────────────────</code></pre><p>This may be useful when the <code>PCA</code> property suggests a random effects structure larger than only main effects but smaller than all interaction terms. This is also similar to the functionality provided by <code>dummy</code> in <code>lme4</code>, but as in the difference between <code>zerocorr</code> in Julia and <code>||</code> in R, there are subtle differences in how this expansion interacts with other terms in the random effects.</p></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../bootstrap/">« Parametric bootstrap for mixed-effects models</a><a class="docs-footer-nextpage" href="../mime/">Alternative display and output formats »</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.25 on <span class="colophon-date" title="Tuesday 19 September 2023 15:24">Tuesday 19 September 2023</span>. Using Julia version 1.8.5.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
+──────────────────────────────────────────────────────────────────────────────</code></pre><p>This may be useful when the <code>PCA</code> property suggests a random effects structure larger than only main effects but smaller than all interaction terms. This is also similar to the functionality provided by <code>dummy</code> in <code>lme4</code>, but as in the difference between <code>zerocorr</code> in Julia and <code>||</code> in R, there are subtle differences in how this expansion interacts with other terms in the random effects.</p></article><nav class="docs-footer"><a class="docs-footer-prevpage" href="../bootstrap/">« Parametric bootstrap for mixed-effects models</a><a class="docs-footer-nextpage" href="../mime/">Alternative display and output formats »</a><div class="flexbox-break"></div><p class="footer-message">Powered by <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> and the <a href="https://julialang.org/">Julia Programming Language</a>.</p></nav></div><div class="modal" id="documenter-settings"><div class="modal-background"></div><div class="modal-card"><header class="modal-card-head"><p class="modal-card-title">Settings</p><button class="delete"></button></header><section class="modal-card-body"><p><label class="label">Theme</label><div class="select"><select id="documenter-themepicker"><option value="documenter-light">documenter-light</option><option value="documenter-dark">documenter-dark</option></select></div></p><hr/><p>This document was generated with <a href="https://github.com/JuliaDocs/Documenter.jl">Documenter.jl</a> version 0.27.25 on <span class="colophon-date" title="Saturday 30 September 2023 17:43">Saturday 30 September 2023</span>. Using Julia version 1.8.5.</p></section><footer class="modal-card-foot"></footer></div></div></div></body></html>
